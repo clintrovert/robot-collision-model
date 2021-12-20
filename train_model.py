@@ -12,7 +12,7 @@ def train_model(no_epochs):
     data_loaders = Data_Loaders(batch_size)
     model = Action_Conditioned_FF()
     loss_function = nn.BCEWithLogitsLoss()
-    save_path = "submission/saved/saved_model.pkl"
+    save_path = "./saved/saved_model.pkl"
     learning_rate = 0.003
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
     training_losses = []
