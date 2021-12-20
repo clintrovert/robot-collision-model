@@ -1,2 +1,1 @@
-# robot-collision-model
-RNN for robot collision avoidance
+`python3 ./train_model.py` to run, outputs to `/saved`
